@@ -11,6 +11,7 @@ class MainWindow(QMainWindow):
 
 	def the_button_was_clicked(self):
 		print("Clicked")
+		
 app = QApplication(sys.argv)
 window = MainWindow()
 window.show()
